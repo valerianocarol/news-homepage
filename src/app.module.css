@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+.app {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.left > img {
+    width: 800px;
+    height: 350px;
+    padding-bottom: 30px;
+}
+
+.leftText {
+    display: flex;
+}
+
+.leftText > h1 {
+    width: 300px;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.readMore {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 400px;
+    padding-left: 80px;
+    gap: 30px;
+}
+
+.readMore > p {
+    font-family: 'Inter', sans-serif;
+    color: hsl(236, 13%, 42%);
+    letter-spacing: 0.9px;
+}
+
+.readMore > button {
+    border: none;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.readMore > button:hover {
+    background-color: hsl(5, 85%, 63%);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: hsl(240, 100%, 5%);
+    padding: 20px 15px;
+    gap: 25px;
+}
+
+.right > h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    color: hsl(35, 77%, 62%);
+}
+
+.cardsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 60px;
+}

@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    gap: 15px;
+}
+
+.container > h3 {
+    cursor: pointer;
+    color: hsl(36, 100%, 99%);
+}
+
+.container > h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.container > p {
+    width: 280px;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(233, 8%, 79%);
+}

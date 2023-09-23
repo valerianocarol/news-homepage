@@ -1,0 +1,5 @@
+.linha {
+    width: 300px;
+    border: 1px solid hsl(233, 8%, 79%);
+    margin: 15px 0;
+}
